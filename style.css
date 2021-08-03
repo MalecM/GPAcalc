@@ -1,0 +1,211 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+</style>
+    html, body {
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    .topbar {
+        width: 100%;
+        height: 60px;
+        position: fixed;
+        margin-top: 0;
+        padding-top: 0;
+        top: 0;
+        background-color: #1D3557;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0);
+        z-index: 255;
+    }
+    .nav-padding {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .topNav {
+        font-size: 20px;
+        margin-left: 30px;
+        font-weight: 600;
+        color: #F2EDD2;
+        line-height: 60px;
+        text-decoration: none;
+    }
+    .containerOne {
+        background-color: #0077B8;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top:  100px;
+        padding-bottom: 30px;
+
+    }
+    .titleGrades{
+        margin-top: 10px;
+        font-size: 35px;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-weight: 800;
+        color: #F2EDD2;
+        line-height: 40px;
+        display: inline-block;
+        text-decoration: none;
+    }
+    label {
+        width: 100%;
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 0px;
+        margin-right: 0px;
+        font-weight: 200;
+        color: #F2EDD2;
+        line-height: 20px;
+        display: block;
+        text-decoration: none; 
+}
+    p {
+        padding-top: 10px;
+        font-size: 30px;
+        margin-left: 40px;
+        margin-right: 0px;
+        font-weight: 800;
+        color: #1D3557;
+        line-height: 50px;
+        display: block;
+        text-decoration: none;
+    }
+    h1  {
+        padding-top: 10px;
+        font-size:120px;;
+        font-weight: 800;
+        color: #F2EDD2;
+        line-height: 120px;
+        text-decoration: none;  
+    }
+    button[type=submit] {
+  background-color: #D62828;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+button[type=submit]:hover {
+  background-color: #D13440;
+}
+    h2  {
+        padding-top: 10px;
+        font-size:120px;;
+        font-weight: 800;
+        color: #F2EDD2;
+        line-height: 120px;
+        text-decoration: none;  
+    }
+    .containerFoot
+    {        
+        background-color: #1D3557;
+        width: 100%;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 10px;
+    }
+    .fa {
+        padding: 10px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        background: #F1FAEE;
+        color: #1D3557;
+        }
+
+    .fa:hover {
+    opacity: 0.7;
+    }
+
+.fa-linkedin {
+  background: #F2EDD2;
+  color: #1D3557;
+  display: inline-block;
+}
+.fa-facebook {
+  background: #F2EDD2;
+  color: #1D3557;
+  display: inline-block;
+}
+.fa-instagram {
+  background: #F2EDD2;
+  color: #1D3557;
+  display: inline-block;
+}
+.fa-twitter {
+  background: #F2EDD2;
+  color: #1D3557;
+  display: inline-block;
+}
+
+
+.endText
+{
+    text-align: center;
+        margin-top: 0px;
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 40px;
+        margin-left: 0px;
+        margin-right: 0px;
+        font-weight: 200;
+        color: #F2EDD2;
+        line-height: 30px;
+        display: block;
+        text-decoration: none; 
+}
+    a:hover{
+        color: #F2EDD2 !important;
+    }
+    a:link{
+        color: #F2EDD2 !important  }
+
+@media only screen and (max-width: 600px) {
+        .topNav {
+        font-size: 20px;
+        margin-left: 10px;
+        font-weight: 600;
+        color: #F2EDD2;
+        line-height: 60px;
+        text-decoration: none;
+    }
+        .containerOne {
+        background-color: #0077B8;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top:  70px;
+        padding-bottom: 30px;
+
+    }
+    p
+    {
+        padding-top: 10px;
+        font-size: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+        font-weight: 800;
+        color: #1D3557;
+        line-height: 20px;
+        display: block;
+        text-decoration: none;
+    }
+    label {
+        width: 100%;
+        font-size: 17px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 0px;
+        margin-right: 0px;
+        font-weight: 200;
+        color: #F2EDD2;
+        line-height: 20px;
+        display: block;
+        text-decoration: none; 
