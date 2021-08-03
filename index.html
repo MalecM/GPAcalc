@@ -1,0 +1,221 @@
+<html>
+<head>
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#006bff">
+    <meta name="msapplication-TileColor" content="#006bff">
+    <meta name="theme-color" content="#006bff">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <meta charset="utf-8">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+    <title>GPA Calculator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/656d6b4226.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class='container-flex topbar'>
+    <div class='row nav-padding'>
+        <div class='col-2'>   
+                    </div>
+                            </div>
+        <div class='col-10 expandedCol' align='left'>
+            <a href="www.malecm.com" class='topNav'>
+                Return to main site
+            </a>
+        </div>
+    </div>
+<div class= 'containerOne'>
+    <h1 class='text-center'> GPA Calculator </h1>
+    <form>
+        <div class="row">
+             <div class="col-6">
+                    <div class="form-group">
+                        <p class="text-center"> Previous GPA </p>
+                    <label for="exampleInputPassword1">GPA out of 4.0</label>
+                    <input class="form-control" id="hoursOneResult" placeholder="1...2...3.5..etc.">
+                    </div>
+            </div> 
+            <div class="col-6">
+                    <div class="form-group">
+                        <p class="text-center"> Previous Hours </p>
+                    <label for="hoursTotal">Total Previous Hours</label>
+                    <input class="form-control" id="hoursOneResult" placeholder="1...2...3.5..etc.">
+                    </div>
+            </div>
+            <div class="col-6">
+                <div class="form-group">
+                <p class="text-center"> Grades by Class </p>
+                    <label for="gradesOne">Grade for Class 1</label>
+                        <select class="form-control" id="gradesOneResult">
+                            <option>A</option>
+                            <option>A-</option>
+                            <option>B+</option>
+                            <option>B</option>
+                            <option>B-</option>
+                            <option>C+</option>
+                            <option>C</option>
+                            <option>C-</option>
+                            <option>D+</option>
+                            <option>D</option>
+                            <option>D-</option>
+                            <option>F</option>
+                            </select>
+                </div>
+            </div>
+            <div class="col-6">
+                    <div class="form-group">
+                        <p class="text-center"> Hours by Class </p>
+                    <label for="hoursOne">Hours for Class 1</label>
+                    <input class="form-control" id="hoursOneResult" placeholder="1...2...3.5..etc.">
+                    </div>
+            </div>
+                    <div class="col-6">
+                <div class="form-group">
+                    <label for="gradesTwo">Grade for Class 2</label>
+                        <select class="form-control" id="gradesTwoResult">
+                            <option>A</option>
+                            <option>A-</option>
+                            <option>B+</option>
+                            <option>B</option>
+                            <option>B-</option>
+                            <option>C+</option>
+                            <option>C</option>
+                            <option>C-</option>
+                            <option>D+</option>
+                            <option>D</option>
+                            <option>D-</option>
+                            <option>F</option>
+                            </select>
+                </div>
+            </div>
+            <div class="col-6">
+                    <div class="form-group">
+                    <label for="hoursTwo">Hours for Class 2</label>
+                    <input class="form-control" id="hoursTwoResult" placeholder="1...2...3.5..etc.">
+                    </div>
+            </div>
+        <div class="col-6">
+                <div class="form-group">
+                    <label for="gradesThree">Grade for Class 3</label>
+                        <select class="form-control" id="gradesThreeResult">
+                            <option>A</option>
+                            <option>A-</option>
+                            <option>B+</option>
+                            <option>B</option>
+                            <option>B-</option>
+                            <option>C+</option>
+                            <option>C</option>
+                            <option>C-</option>
+                            <option>D+</option>
+                            <option>D</option>
+                            <option>D-</option>
+                            <option>F</option>
+                            </select>
+                </div>
+            </div>
+            <div class="col-6">
+                    <div class="form-group">
+                    <label for="hoursThree">Hours for Class 3</label>
+                    <input class="form-control" id="hoursThreeResult" placeholder="1...2...3.5..etc.">
+            </div>
+        </div>
+                <div class="col-6">
+                <div class="form-group">
+                    <label for="gradesFour">Grade for Class 4</label>
+                        <select class="form-control" id="gradesFourResult">
+                            <option>A</option>
+                            <option>A-</option>
+                            <option>B+</option>
+                            <option>B</option>
+                            <option>B-</option>
+                            <option>C+</option>
+                            <option>C</option>
+                            <option>C-</option>
+                            <option>D+</option>
+                            <option>D</option>
+                            <option>D-</option>
+                            <option>F</option>
+                            </select>
+                </div>
+            </div>
+            <div class="col-6">
+                    <div class="form-group">
+                    <label for="hoursFive">Hours for Class 5</label>
+                    <input class="form-control" id="hoursFiveResult" placeholder="1...2...3.5..etc.">
+            </div>
+        </div>
+                        <div class="col-6">
+                <div class="form-group">
+                    <label for="gradesFive">Grade for Class 5</label>
+                        <select class="form-control" id="gradesFiveResult">
+                            <option>A</option>
+                            <option>A-</option>
+                            <option>B+</option>
+                            <option>B</option>
+                            <option>B-</option>
+                            <option>C+</option>
+                            <option>C</option>
+                            <option>C-</option>
+                            <option>D+</option>
+                            <option>D</option>
+                            <option>D-</option>
+                            <option>F</option>
+                            </select>
+                </div>
+            </div>
+            <div class="col-6">
+                    <div class="form-group">
+                    <label for="hoursFive">Hours for Class 5</label>
+                    <input class="form-control" id="hoursFiveResult" placeholder="1...2...3.5..etc.">
+            </div>
+        </div>
+                        <div class="col-6">
+                <div class="form-group">
+                    <label for="gradesSix">Grade for Class 6</label>
+                        <select class="form-control" id="gradesSixResult">
+                            <option>A</option>
+                            <option>A-</option>
+                            <option>B+</option>
+                            <option>B</option>
+                            <option>B-</option>
+                            <option>C+</option>
+                            <option>C</option>
+                            <option>C-</option>
+                            <option>D+</option>
+                            <option>D</option>
+                            <option>D-</option>
+                            <option>F</option>
+                            </select>
+                </div>
+            </div>
+            <div class="col-6">
+                    <div class="form-group">
+                    <label for="hoursSix">Hours for Class 6</label>
+                    <input class="form-control" id="hoursSixResult" placeholder="1...2...3.5..etc.">
+            </div>
+        </div>
+            <button type="submit" value="Submit" name="submit"> Submit </button>
+    </form>
+    <h2> Your GPA is: </h2>
+</div>
+</div>
+    <div class= 'containerFoot'>
+            <a href="https://www.linkedin.com/in/mmoghadam"> <i class="fa fa-linkedin"></i></a>
+            <a href="https://www.facebook.com/malecmoghadam"> <i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com/MalecMog"> <i class="fa fa-twitter"></i></a>
+            <a href="https://www.instagram.com/malecmoghadam/?hl=en"> <i class="fa fa-instagram"></i></a>
+            <address><span class='endText'>
+            Thanks for visiting! Email me at 
+            <a href="mailto:malec@utexas.edu">malec@utexas.edu</a><br> 
+            Site designed by Malec Moghadam
+            </address></span>
+</div>
+        </body>
+        </html
